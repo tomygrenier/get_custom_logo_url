@@ -1,0 +1,17 @@
+<?php
+/**
+ * Multisite front page displaying list of blog's name and custom logo.
+ *
+ * 
+ */
+
+get_header(); ?>
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+  
+  </main><!-- #main -->
+</div><!-- #primary -->
+
+<?php
+get_footer();
