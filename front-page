@@ -9,9 +9,17 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-  
-  </main><!-- #main -->
+  	<?php 
+	  $subsites = get_sites();
+	  foreach ($subsites AS $subsite) { ?>
+	  <div class="polaroid">
+	    <img src="<?= get_custom_logo_url( $subsite->blog_id ); ?>" alt="logo of blog <?= $subsite->blog_id ?>" style="width:100%">
+	    <div class="container">
+	      <p><?=  $subsite->title ?></p>
+	    </div>
+	  </div>
+	<?php } ?>
+  	</main><!-- #main -->
 </div><!-- #primary -->
-
 <?php
 get_footer();
