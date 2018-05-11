@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <?php
-Example inspired by Polaroid Images / Cards : https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card
+/*
+  Example inspired by Polaroid Images / Cards : https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card
+*/
 ?>
 <head>
 <style>
